@@ -1,2 +1,2 @@
 # emph
-OpenOffice Button bar for emphasize, strong emphasize and load "yWriter" template
+OpenOffice Button bar for  _emphasize_  and  _strong emphasize_  character styles.
