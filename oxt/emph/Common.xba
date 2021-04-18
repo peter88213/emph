@@ -9,14 +9,20 @@ rem define variables
 dim document   as object
 dim dispatcher as object
 rem ----------------------------------------------------------------------
-rem get access to the document
+
+
+ThisDoc    = ThisComponent
+dim cStyles
+  cStyles = ThisDoc.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+
+
 document   = ThisComponent.CurrentController.Frame
 dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 
 rem ----------------------------------------------------------------------
 dim args1(1) as new com.sun.star.beans.PropertyValue
 args1(0).Name = &quot;Template&quot;
-args1(0).Value = &quot;Betont&quot;
+args1(0).Value = cStyles.getByName(&quot;Emphasis&quot;).DisplayName
 args1(1).Name = &quot;Family&quot;
 args1(1).Value = 1
 
@@ -31,14 +37,19 @@ rem define variables
 dim document   as object
 dim dispatcher as object
 rem ----------------------------------------------------------------------
-rem get access to the document
+
+ThisDoc    = ThisComponent
+dim cStyles
+  cStyles = ThisDoc.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+
+
 document   = ThisComponent.CurrentController.Frame
 dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 
 rem ----------------------------------------------------------------------
 dim args1(1) as new com.sun.star.beans.PropertyValue
 args1(0).Name = &quot;Template&quot;
-args1(0).Value = &quot;Stark betont&quot;
+args1(0).Value = cStyles.getByName(&quot;Strong Emphasis&quot;).DisplayName
 args1(1).Name = &quot;Family&quot;
 args1(1).Value = 1
 
