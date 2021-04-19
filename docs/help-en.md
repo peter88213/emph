@@ -17,12 +17,21 @@ You can dock it to a suitable place on the user interface.
 
 There are two buttons:  _E_  for emphasize and  __S__  for strong empühasize.
 
-![](Screenshots/Toolbar01-en.png)
+
+
+### Assign "Emphasis" character style
 
 1. Mark the text passage you want to emphasize.
-2. Click the  _E_  or the  __S__  button. 
+2. Click the  _E_  button. 
 
-![](Screenshots/Use-en.png)
+![](Screenshots/Emphasize.png)
+
+### Assign "Strong Emphasis" character style
+
+1. Mark the text passage you want to emphasize.
+2. Click the  __S__  button. 
+
+![](Screenshots/Strong.png)
 
 ## Get help
 
