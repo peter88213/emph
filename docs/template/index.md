@@ -1,8 +1,9 @@
 ![Screenshot: toolbar](Screenshots/Toolbar00-en.png)
 
 
-This extension for OpenOffice/LibreOffice provides a toolbar to quickly assign the "Emphasis" and "Strong Emphasis" character styles.
+For the body text of fiction such as novels or short stories, "integrated" markup styles are commonly used that are not immediately eye-catching, but only as you read: the "emphasis" using italics and the "strong emphasis" using small caps.
 
+_Writer_   supports this by providing character styles that you can customize yourself and use instead of direct formatting with, for example, "Bold" and "Italic". You might wish to quickly mark up the text while writing without having to go to the selection list of character styles each time. This extension provides a toolbar to quickly assign the "Emphasis" and "Strong Emphasis" character styles.
 
 ## System requirements
 
