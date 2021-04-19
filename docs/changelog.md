@@ -6,6 +6,12 @@
 
 The "D" button resets to default style, like usually Ctrl-M. 
 
+
+### v1.2.1 LibreOffice variant
+A variant without the "Default" button which would not work under
+LibreOffice.
+
+
 ### v1.2.0 First public release
 
 Internationalized, with help text.

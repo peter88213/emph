@@ -7,7 +7,7 @@ _Writer_   supports this by providing character styles that you can customize yo
 
 ## System requirements
 
-* __OpenOffice.org 3.x__  or __Apache OpenOffice 4.x__
+* __OpenOffice.org 3.x__  or  __Apache OpenOffice 4.x__
 * __Java__ (OpenOffice needs it for macro execution)
 
 ## Download and install
@@ -18,7 +18,7 @@ Download the extension variant that matches your Office installation:
 
 [OpenOffice.org 3.x variant (emph-1.4.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/master/emph-1.4.0.oxt)
 
-* Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice/LibreOffice Extension Manager.
+* Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice Extension Manager.
 
 * After installation (and Office restart) you find a toolbar.
 
