@@ -1,4 +1,4 @@
-# The emph extension for OpenOffice and LibreOffice
+# The emph extension for OpenOffice
 
 A toolbar to quickly assign the  _Emphasis_  and  __Strong Emphasis__  character styles.
 
