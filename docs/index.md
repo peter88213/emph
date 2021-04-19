@@ -5,7 +5,6 @@ For the body text of fiction such as novels or short stories, "integrated" marku
 
 _Writer_   supports this by providing character styles that you can customize yourself and use instead of direct formatting with, for example, "Bold" and "Italic". You might wish to quickly mark up the text while writing without having to go to the selection list of character styles each time. This extension provides a toolbar to quickly assign the "Emphasis" and "Strong Emphasis" character styles.
 
-
 ## System requirements
 
 * __OpenOffice.org 3.x or Apache OpenOffice 4.x or LibreOffice 6.x__
