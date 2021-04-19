@@ -15,7 +15,7 @@ You can dock it to a suitable place on the user interface.
 
 ## Use the toolbar
 
-There are two buttons:  _E_  for emphasize and  __S__  for strong empühasize.
+There are two buttons:  _E_  for emphasize and  __S__  for strong emphasize.
 
 
 
