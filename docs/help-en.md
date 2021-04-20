@@ -40,8 +40,6 @@ There are three buttons:  __E__  for emphasize and  __S__  for strong emphasize 
 1. Mark the text passage you want to de-emphasize.
 2. Click on the  __D__  button.
 
-By default, this function can also be called with the key combination Ctrl-M.
-
 ![](Screenshots/Default.png)
 
 
@@ -50,7 +48,7 @@ By default, this function can also be called with the key combination Ctrl-M.
 1. Make sure that nothing is marked. 
 2. Click on the  __E__  button.
 3. Type the text you want to emphasize.
-4. When finished, click on the  __D__  button (or press Ctrl-M).
+4. When finished, click on the  __D__  button.
 
 
 ### Enter strongly emphasized text
@@ -58,7 +56,7 @@ By default, this function can also be called with the key combination Ctrl-M.
 1. Make sure that nothing is marked. 
 2. Click on the  __S__  button.
 3. Type the text you want to emphasize.
-4. When finished, click on the  __D__  button (or press Ctrl-M).
+4. When finished, click on the  __D__  button.
 
 
 ## Get help

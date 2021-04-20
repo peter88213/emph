@@ -5,22 +5,18 @@
 
 sub Emphasis
 rem ----------------------------------------------------------------------
-rem define variables
+rem Apply &quot;Emphasis&quot; character style
+rem ----------------------------------------------------------------------
+
 dim document   as object
 dim dispatcher as object
-rem ----------------------------------------------------------------------
-
-
-ThisDoc    = ThisComponent
 dim cStyles
-  cStyles = ThisDoc.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+dim args1(1) as new com.sun.star.beans.PropertyValue
 
-
-document   = ThisComponent.CurrentController.Frame
+cStyles = ThisComponent.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+document = ThisComponent.CurrentController.Frame
 dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 
-rem ----------------------------------------------------------------------
-dim args1(1) as new com.sun.star.beans.PropertyValue
 args1(0).Name = &quot;Template&quot;
 args1(0).Value = cStyles.getByName(&quot;Emphasis&quot;).DisplayName
 args1(1).Name = &quot;Family&quot;
@@ -33,21 +29,18 @@ end sub
 
 sub StrongEmphasis
 rem ----------------------------------------------------------------------
-rem define variables
-dim document   as object
-dim dispatcher as object
+rem Apply &quot;Strong Emphasis&quot; character style
 rem ----------------------------------------------------------------------
 
-ThisDoc    = ThisComponent
+dim document   as object
+dim dispatcher as object
 dim cStyles
-  cStyles = ThisDoc.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+dim args1(1) as new com.sun.star.beans.PropertyValue
 
-
+cStyles = ThisComponent.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
 document   = ThisComponent.CurrentController.Frame
 dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 
-rem ----------------------------------------------------------------------
-dim args1(1) as new com.sun.star.beans.PropertyValue
 args1(0).Name = &quot;Template&quot;
 args1(0).Value = cStyles.getByName(&quot;Strong Emphasis&quot;).DisplayName
 args1(1).Name = &quot;Family&quot;
@@ -60,25 +53,23 @@ end sub
 
 sub Default
 rem ----------------------------------------------------------------------
-rem define variables
+rem Apply default character style
+rem ----------------------------------------------------------------------
+
 dim document   as object
 dim dispatcher as object
-rem ----------------------------------------------------------------------
-
-ThisDoc    = ThisComponent
 dim cStyles
-  cStyles = ThisDoc.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+dim args1(1) as new com.sun.star.beans.PropertyValue
 
-
-document   = ThisComponent.CurrentController.Frame
+cStyles = ThisComponent.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+document = ThisComponent.CurrentController.Frame
 dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 
-rem ----------------------------------------------------------------------
-rem This does not work in English localized LO:
-
-dim args1(1) as new com.sun.star.beans.PropertyValue
 args1(0).Name = &quot;Template&quot;
+
+rem This does not work for English localized LO:
 args1(0).Value = cStyles.getByName(&quot;Standard&quot;).DisplayName
+
 args1(1).Name = &quot;Family&quot;
 args1(1).Value = 1
 
