@@ -7,9 +7,9 @@ For more information, see the [project home page](https://peter88213.github.io/e
 
 ## LibreOffice variants
 
-A simplified LibreOffice variant  _without the "D" button_ can be downloaded [here](https://github.com/peter88213/emph/releases/download/v1.2.1/emph-L-1.2.1.oxt).
+A simplified LibreOffice variant  _without the "D" button_ can be [downloaded here](https://github.com/peter88213/emph/releases/download/v1.2.1/emph-L-1.2.1.oxt). The code can be found in the [LibreOffice branch](https://github.com/peter88213/emph/tree/LibreOffice).
 
-A fully featured LibreOffice variant with a "D" button  _working only for German localized LO_  can be downloaded [here](https://github.com/peter88213/emph/releases/download/v1.3.3/emph-L-1.3.3.oxt).
+A fully featured LibreOffice variant with a "D" button  _working only for German localized LO_  can be [downloaded here](https://github.com/peter88213/emph/releases/download/v1.3.3/emph-L-1.3.3.oxt). The code can be found in the [LibreOffice development branch](https://github.com/peter88213/emph/tree/LibreOffice_develop).
 
 
 ## License
