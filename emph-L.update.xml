@@ -10,7 +10,7 @@
       <l:LibreOffice-minimal-version value="6.0" dep:name="LibreOffice 6.0 minimum, or more recent" />
    </dependencies>
    <update-download>
-      <src xlink:href="https://raw.githubusercontent.com/peter88213/emph/LibreOffice/emph-L-1.2.2.oxt" />
+      <src xlink:href="https://raw.githubusercontent.com/peter88213/emph/master/emph-L-1.2.2.oxt" />
    </update-download>
    <publisher>
       <name lang="en" xlink:href="https://github.com/peter88213">Peter Triesberger</name>
