@@ -64,13 +64,25 @@ rem define variables
 dim document   as object
 dim dispatcher as object
 rem ----------------------------------------------------------------------
-rem get access to the document
+
+ThisDoc    = ThisComponent
+dim cStyles
+  cStyles = ThisDoc.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
+
+
 document   = ThisComponent.CurrentController.Frame
 dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 
 rem ----------------------------------------------------------------------
-dispatcher.executeDispatch(document, &quot;.uno:ResetAttributes&quot;, &quot;&quot;, 0, Array())
+rem This does not work in English localized LO:
 
+dim args1(1) as new com.sun.star.beans.PropertyValue
+args1(0).Name = &quot;Template&quot;
+args1(0).Value = cStyles.getByName(&quot;Standard&quot;).DisplayName
+args1(1).Name = &quot;Family&quot;
+args1(1).Value = 1
+
+dispatcher.executeDispatch(document, &quot;.uno:StyleApply&quot;, &quot;&quot;, 0, args1())
 
 end sub
 </script:module>
