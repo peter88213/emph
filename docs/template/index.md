@@ -1,3 +1,5 @@
+# The emph extension for OpenOffice
+
 For the body text of fiction such as novels or short stories, "integrated" markup styles are commonly used that are not immediately eye-catching, but only as you read: the "emphasis" using italics and the "strong emphasis" using small caps.
 
 _Writer_   supports this by providing character styles that you can customize yourself and use instead of direct formatting with, for example, "Bold" and "Italic". You might wish to quickly mark up the text while writing without having to go to the selection list of character styles each time. 
