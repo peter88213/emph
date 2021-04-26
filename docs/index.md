@@ -14,9 +14,9 @@ _Writer_   supports this by providing character styles that you can customize yo
 
 Download the extension variant that matches your Office installation:
 
-[Apache OpenOffice 4.x variant (emph-A-1.4.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/master/emph-A-1.4.0.oxt)
+[Apache OpenOffice 4.x variant (emph-A-1.6.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/master/emph-A-1.6.0.oxt)
 
-[OpenOffice.org 3.x variant (emph-1.4.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/master/emph-1.4.0.oxt)
+[OpenOffice.org 3.x variant (emph-1.6.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/master/emph-1.6.0.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice Extension Manager.
 

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE script:module PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "module.dtd">
+<script:module xmlns:script="http://openoffice.org/2000/script" script:name="Styles" script:language="StarBasic">REM  *****  BASIC  *****
+rem ----------------------------------------------------------------------
+rem The following code is based on an example snippet published in the
+rem  Apache OpenOffice Wiki
+rem https://wiki.openoffice.org/wiki/Documentation/BASIC_Guide/
+rem Structure_of_Text_Documents#Default_values_for_character_and_paragraph_properties
+rem ----------------------------------------------------------------------
+
+Sub Main
+&apos; Replace direct formatting with character styles
+
+	bold_to_strong
+	italic_to_emphasis
+
+End Sub
+
+
+
+Sub bold_to_strong
+rem ----------------------------------------------------------------------
+rem Convert &quot;bold&quot; direct formatting to &quot;strong emphasis&quot; style
+rem ----------------------------------------------------------------------
+
+	Dim Doc As Object
+	Dim Enum1 As Object
+	Dim Enum2 As Object
+	Dim TextElement As Object
+	Dim TextPortion As Object
+	 
+	Doc = ThisComponent
+	Enum1 = Doc.Text.createEnumeration
+	 
+	&apos; loop over all paragraphs
+	While Enum1.hasMoreElements
+		TextElement = Enum1.nextElement
+		
+		If TextElement.supportsService(&quot;com.sun.star.text.Paragraph&quot;) Then
+			Enum2 = TextElement.createEnumeration
+			&apos; loop over all paragraph portions
+			
+			While Enum2.hasMoreElements
+				TextPortion = Enum2.nextElement
+				
+				If TextPortion.CharWeight = _
+					com.sun.star.awt.FontWeight.BOLD AND _
+					TextPortion.getPropertyState(&quot;CharWeight&quot;) = _
+					com.sun.star.beans.PropertyState.DIRECT_VALUE Then
+					TextPortion.setPropertyToDefault(&quot;CharWeight&quot;)
+					TextPortion.CharStyleName = &quot;Strong Emphasis&quot;
+				End If
+			Wend
+		End If
+	Wend
+
+End Sub
+
+
+Sub italic_to_emphasis
+rem ----------------------------------------------------------------------
+rem Convert &quot;italic&quot; direct formatting to &quot;emphasis&quot; style
+rem ----------------------------------------------------------------------
+
+	Dim Doc As Object
+	Dim Enum1 As Object
+	Dim Enum2 As Object
+	Dim TextElement As Object
+	Dim TextPortion As Object
+	
+	Doc = ThisComponent
+	Enum1 = Doc.Text.createEnumeration
+	 
+	&apos; loop over all paragraphs
+	While Enum1.hasMoreElements
+		TextElement = Enum1.nextElement
+		
+		If TextElement.supportsService(&quot;com.sun.star.text.Paragraph&quot;) Then
+			Enum2 = TextElement.createEnumeration
+			&apos; loop over all paragraph portions
+			
+			While Enum2.hasMoreElements
+				TextPortion = Enum2.nextElement
+				
+				If TextPortion.CharPosture = _
+					com.sun.star.awt.FontSlant.ITALIC AND _
+					TextPortion.getPropertyState(&quot;CharPosture&quot;) = _
+					com.sun.star.beans.PropertyState.DIRECT_VALUE Then
+					TextPortion.setPropertyToDefault(&quot;CharPosture&quot;)
+					TextPortion.CharStyleName = &quot;Emphasis&quot; 	      
+				End If
+			Wend
+		End If
+	Wend
+
+End Sub
+
+</script:module>
