@@ -58,17 +58,15 @@ rem ----------------------------------------------------------------------
 
 dim document   as object
 dim dispatcher as object
-dim cStyles
 dim args1(1) as new com.sun.star.beans.PropertyValue
 
-cStyles = ThisComponent.StyleFamilies.getByName(&quot;CharacterStyles&quot;)
 document = ThisComponent.CurrentController.Frame
 dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 
 args1(0).Name = &quot;Template&quot;
 
-rem This does not work for English localized LO:
-args1(0).Value = cStyles.getByName(&quot;Standard&quot;).DisplayName
+rem This works only for German localized OO+LO:
+args1(0).Value = &quot;Standard&quot;
 
 args1(1).Name = &quot;Family&quot;
 args1(1).Value = 1

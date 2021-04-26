@@ -59,6 +59,20 @@ There are three buttons:  __E__  for emphasize and  __S__  for strong emphasize 
 4. When finished, click on the  __D__  button.
 
 
+## Use the menu
+
+To assign the appropriate character template to all directly formatted 
+text passages in the document, there are several options in the "emph" menu. 
+
+Optionally, bold and italic can be converted separately. 
+
+Also vice versa, the assignment of character templates is possible for all 
+directly formatted text passages occurring in the document.
+
+![](Screenshots/FormatMenu.png)
+
+
+
 ## Get help
 
 In the  __Help__  section of the main menu, there is a  __emph help__  submenu. 
