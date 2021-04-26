@@ -1,9 +1,6 @@
 # The emph extension for OpenOffice
 
-A toolbar to quickly assign the  _Emphasis_  and  __Strong Emphasis__  character styles.
-
-For more information, see the [project home page](https://peter88213.github.io/emph/) with description and download instructions.
-
+A "Convert text markup" Menu and a toolbar to quickly assign the  _Emphasis_  and  __Strong Emphasis__  character styles. 
 
 ## LibreOffice variants
 
