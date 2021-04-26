@@ -66,16 +66,15 @@ dispatcher = createUnoService(&quot;com.sun.star.frame.DispatchHelper&quot;)
 args1(0).Name = &quot;Template&quot;
 
 rem This works only for German localized OO+LO:
-rem args1(0).Value = &quot;Standard&quot;
+args1(0).Value = &quot;Standard&quot;
 
-rem args1(1).Name = &quot;Family&quot;
-rem args1(1).Value = 1
+args1(1).Name = &quot;Family&quot;
+args1(1).Value = 1
 
-rem dispatcher.executeDispatch(document, &quot;.uno:StyleApply&quot;, &quot;&quot;, 0, args1())
+dispatcher.executeDispatch(document, &quot;.uno:StyleApply&quot;, &quot;&quot;, 0, args1())
 
 rem This works generally for OpenOffice:
-
-dispatcher.executeDispatch(document, &quot;.uno:ResetAttributes&quot;, &quot;&quot;, 0, Array())
+rem dispatcher.executeDispatch(document, &quot;.uno:ResetAttributes&quot;, &quot;&quot;, 0, Array())
 
 end sub
 </script:module>
