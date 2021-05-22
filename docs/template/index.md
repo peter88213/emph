@@ -1,6 +1,6 @@
-# The emph extension for OpenOffice
-
 ![Screenshot: toolbar](Screenshots/FormatMenu.png)
+
+# The emph extension for OpenOffice
 
 For the body text of fiction such as novels or short stories, "integrated" markup styles are commonly used that are not immediately eye-catching, but only as you read: the "emphasis" using italics and the "strong emphasis" using small caps.
 
