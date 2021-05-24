@@ -1,4 +1,6 @@
-[Project homepage](https://peter88213.github.io/emph/)
+[Project homepage](https://peter88213.github.io/emph/) > Instructions for use
+
+------------------------------------------------------------------------
 
 ## Instructions for use
 
