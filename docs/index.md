@@ -33,7 +33,11 @@ Download the extension variant that matches your Office installation:
 
 See the [instructions for use](help-en)
 
-## CREDITS
+## Get updates
+
+This extension supports the update mechanism of OpenOffice. You can let the Extension Manager check for updates from time to time to get the latest release.
+
+## Credits
 
 [OpenOffice Extension Compiler](https://wiki.openoffice.org/wiki/Extensions_Packager#Extension_Compiler) by Bernard Marcelly.
 
