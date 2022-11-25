@@ -1,6 +1,6 @@
 ![Screenshot: toolbar](Screenshots/FormatMenu.png)
 
-# The emph extension for OpenOffice
+# The emph extension for OpenOffice and LibreOffice
 
 For the body text of fiction such as novels or short stories, "integrated" markup styles are commonly used that are not immediately eye-catching, but only as you read: the "emphasis" using italics and the "strong emphasis" using small caps.
 
@@ -11,7 +11,7 @@ This extension provides a toolbar to quickly assign the "Emphasis", "Strong Emph
 
 ## System requirements
 
-* __OpenOffice.org 3.x__  or  __Apache OpenOffice 4.x__
+* __OpenOffice.org 3.x__  or  __Apache OpenOffice 4.x__  or  __LibreOffice 6+__
 * __Java__ (OpenOffice needs it for macro execution)
 
 ## Download and install
@@ -22,7 +22,9 @@ Download the extension variant that matches your Office installation:
 
 [OpenOffice.org 3.x variant (emph-1.6.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-1.6.0.oxt)
 
-* Installation right at download, by double-clicking on the downloaded file, or via the OpenOffice Extension Manager.
+[LibreOffice variant (emph-L-1.8.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-L-1.8.0.oxt)
+
+* Installation right at download, by double-clicking on the downloaded file, or via the Libre/OpenOffice Extension Manager.
 
 * After installation (and Office restart) you find a toolbar.
 
