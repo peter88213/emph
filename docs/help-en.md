@@ -2,6 +2,7 @@
 
 ## Instructions for use
 
+**Note:** The "D" button shown in the screenshot is not provided for the LibreOffice variant.
 
 ## Place the toolbar
 
@@ -35,20 +36,12 @@ There are three buttons:  __E__  for emphasize and  __S__  for strong emphasize 
 ![](Screenshots/Strong.png)
 
 
-### Undo the assignment
-
-1. Mark the text passage you want to de-emphasize.
-2. Click on the  __D__  button.
-
-![](Screenshots/Default.png)
-
-
 ### Enter emphasized text
 
 1. Make sure that nothing is marked. 
 2. Click on the  __E__  button.
 3. Type the text you want to emphasize.
-4. When finished, click on the  __D__  button.
+4. When finished, press **Ctrl-M**.
 
 
 ### Enter strongly emphasized text
@@ -56,7 +49,7 @@ There are three buttons:  __E__  for emphasize and  __S__  for strong emphasize 
 1. Make sure that nothing is marked. 
 2. Click on the  __S__  button.
 3. Type the text you want to emphasize.
-4. When finished, click on the  __D__  button.
+4. When finished, press **Ctrl-M**.
 
 
 ## Use the menu
