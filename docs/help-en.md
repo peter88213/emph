@@ -65,7 +65,10 @@ Alternatively, you can assign the Default Character Style, which also works with
 ## Use the menu
 
 To assign the appropriate character template to all directly formatted 
-text passages in the document, there are several options in the "emph" menu. 
+text passages in the document, there are several options in the "emph" menu.
+
+Text that is formatted as both bold and italic will be converted to 
+"Strong Emphasis" format.
 
 Optionally, bold and italic can be converted separately. 
 

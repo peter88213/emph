@@ -18,9 +18,9 @@ This extension provides a toolbar to quickly assign the "Emphasis", "Strong Emph
 
 Download the extension variant that matches your Office installation:
 
-[Apache OpenOffice 4.x variant (emph-A-1.6.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-A-1.6.0.oxt)
+[Apache OpenOffice 4.x variant (emph-A-1.7.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-A-1.7.0.oxt)
 
-[OpenOffice.org 3.x variant (emph-1.6.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-1.6.0.oxt)
+[OpenOffice.org 3.x variant (emph-1.7.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-1.7.0.oxt)
 
 [LibreOffice variant (emph-L-1.8.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-L-1.8.0.oxt)
 

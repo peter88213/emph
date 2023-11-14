@@ -11,8 +11,8 @@ rem ----------------------------------------------------------------------
 Sub Main
 &apos; Replace direct formatting with character styles
 
-	bold_to_strong
 	italic_to_emphasis
+	bold_to_strong
 
 End Sub
 
