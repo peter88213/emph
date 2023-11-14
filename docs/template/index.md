@@ -22,7 +22,7 @@ Download the extension variant that matches your Office installation:
 
 [OpenOffice.org 3.x variant (emph-0.99.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-0.99.0.oxt)
 
-[LibreOffice variant (emph-L-1.8.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-L-1.8.0.oxt)
+[LibreOffice variant (emph-L-1.9.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-L-1.9.0.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the Libre/OpenOffice Extension Manager.
 
