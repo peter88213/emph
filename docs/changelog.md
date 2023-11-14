@@ -2,6 +2,10 @@
 
 ## Changelog
 
+### v1.9.0 (LibreOffice only) Priority for "strong emphasis"
+
+Text that is formatted as both bold and italic will be converted to "Strong Emphasis" format.
+
 ### v1.6.0 Add a "Convert text markup" Menu 
 
 To assign the appropriate character template to all directly formatted 
