@@ -12,7 +12,6 @@ This extension provides a toolbar to quickly assign the "Emphasis", "Strong Emph
 ## System requirements
 
 * __OpenOffice.org 3.x__  or  __Apache OpenOffice 4.x__  or  __LibreOffice 6+__
-* __Java__ (OpenOffice needs it for macro execution)
 
 ## Download and install
 
