@@ -37,20 +37,28 @@ rem ----------------------------------------------------------------------
 		TextElement = Enum1.nextElement
 		
 		If TextElement.supportsService(&quot;com.sun.star.text.Paragraph&quot;) Then
-			Enum2 = TextElement.createEnumeration
-			&apos; loop over all paragraph portions
-			
-			While Enum2.hasMoreElements
-				TextPortion = Enum2.nextElement
+			If TextElement.CharWeight = _
+				com.sun.star.awt.FontWeight.BOLD AND _
+				TextElement.getPropertyState(&quot;CharWeight&quot;) = _
+				com.sun.star.beans.PropertyState.DIRECT_VALUE Then
+				TextElement.setPropertyToDefault(&quot;CharWeight&quot;)
+				TextElement.CharStyleName = &quot;Strong Emphasis&quot;
+			Else
+				Enum2 = TextElement.createEnumeration
+				&apos; loop over all paragraph portions
 				
-				If TextPortion.CharWeight = _
-					com.sun.star.awt.FontWeight.BOLD AND _
-					TextPortion.getPropertyState(&quot;CharWeight&quot;) = _
-					com.sun.star.beans.PropertyState.DIRECT_VALUE Then
-					TextPortion.setPropertyToDefault(&quot;CharWeight&quot;)
-					TextPortion.CharStyleName = &quot;Strong Emphasis&quot;
-				End If
-			Wend
+				While Enum2.hasMoreElements
+					TextPortion = Enum2.nextElement
+					
+					If TextPortion.CharWeight = _
+						com.sun.star.awt.FontWeight.BOLD AND _
+						TextPortion.getPropertyState(&quot;CharWeight&quot;) = _
+						com.sun.star.beans.PropertyState.DIRECT_VALUE Then
+						TextPortion.setPropertyToDefault(&quot;CharWeight&quot;)
+						TextPortion.CharStyleName = &quot;Strong Emphasis&quot;
+					End If
+				Wend
+			End If
 		End If
 	Wend
 
@@ -76,20 +84,28 @@ rem ----------------------------------------------------------------------
 		TextElement = Enum1.nextElement
 		
 		If TextElement.supportsService(&quot;com.sun.star.text.Paragraph&quot;) Then
-			Enum2 = TextElement.createEnumeration
-			&apos; loop over all paragraph portions
-			
-			While Enum2.hasMoreElements
-				TextPortion = Enum2.nextElement
+			If TextElement.CharPosture = _
+				com.sun.star.awt.FontSlant.ITALIC AND _
+				TextElement.getPropertyState(&quot;CharPosture&quot;) = _
+				com.sun.star.beans.PropertyState.DIRECT_VALUE Then
+				TextElement.setPropertyToDefault(&quot;CharPosture&quot;)
+				TextElement.CharStyleName = &quot;Emphasis&quot; 	      
+			Else
+				Enum2 = TextElement.createEnumeration
+				&apos; loop over all paragraph portions
 				
-				If TextPortion.CharPosture = _
-					com.sun.star.awt.FontSlant.ITALIC AND _
-					TextPortion.getPropertyState(&quot;CharPosture&quot;) = _
-					com.sun.star.beans.PropertyState.DIRECT_VALUE Then
-					TextPortion.setPropertyToDefault(&quot;CharPosture&quot;)
-					TextPortion.CharStyleName = &quot;Emphasis&quot; 	      
-				End If
-			Wend
+				While Enum2.hasMoreElements
+					TextPortion = Enum2.nextElement
+					
+					If TextPortion.CharPosture = _
+						com.sun.star.awt.FontSlant.ITALIC AND _
+						TextPortion.getPropertyState(&quot;CharPosture&quot;) = _
+						com.sun.star.beans.PropertyState.DIRECT_VALUE Then
+						TextPortion.setPropertyToDefault(&quot;CharPosture&quot;)
+						TextPortion.CharStyleName = &quot;Emphasis&quot; 	      
+					End If
+				Wend
+			End If
 		End If
 	Wend
 

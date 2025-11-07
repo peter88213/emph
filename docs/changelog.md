@@ -4,6 +4,13 @@
 
 ## Changelog
 
+### v1.7.1 Bugfix
+
+Trying to convert the paragraph as a whole before splitting it into elements.
+This fixes a bug where the conversion from direct formatting to character styles does not work
+if direct formatting is applied to the entire paragraph (#1).
+
+
 ### v1.7.0 Priority for "strong emphasis"
 
 Text that is formatted as both bold and italic will be converted to "Strong Emphasis" format.
