@@ -4,6 +4,12 @@
 
 ## Changelog
 
+### Version 2.0.0
+
+The "Default" subroutine is working now with OpenOffice and LibreOffice, 
+so the `D` button can be provided for LibreOffice as well.
+
+
 ### v1.7.1 Bugfix
 
 Trying to convert the paragraph as a whole before splitting it into elements.

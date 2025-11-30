@@ -19,7 +19,6 @@ You can dock it to a suitable place on the user interface.
 
 There are three buttons:  __E__  for emphasize and  __S__  for strong emphasize and  __D__  for default style.
 
-**Note:** The **D** button is not provided for the LibreOffice variant.
 
 ### Assign "Emphasis" character style
 
