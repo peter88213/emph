@@ -42,6 +42,15 @@ See the [instructions for use](help-en)
 
 This extension supports the update mechanism of OpenOffice. You can let the Extension Manager check for updates from time to time to get the latest release.
 
+## See also
+
+- [StyleSwitcher](https://peter88213.github.io/StyleSwitcher/):
+  Quickly switch between the style sheets of different document templates. 
+- [curly](https://peter88213.github.io/curly/):
+  Conversion of "curly quotes", 
+  typographical apostrophes, ellipses and so on
+  in several languages.
+
 ## Credits
 
 [OpenOffice Extension Compiler](https://wiki.openoffice.org/wiki/Extensions_Packager#Extension_Compiler) by Bernard Marcelly.
