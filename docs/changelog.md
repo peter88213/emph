@@ -4,6 +4,13 @@
 
 ## Changelog
 
+
+### Version 3.0.0
+
+- Adapted the wording to LibreOffice 7.6. 
+- Replaced the `D` button with an `A` button to match the LibreOffice context menu. 
+
+
 ### Version 2.0.0
 
 The "Default" subroutine is working now with OpenOffice and LibreOffice, 

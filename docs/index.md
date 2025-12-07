@@ -21,11 +21,11 @@ To assign the appropriate character template to all directly formatted text pass
 
 Download the extension variant that matches your Office installation:
 
-[Apache OpenOffice 4.x variant (emph-A-2.0.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-A-2.0.0.oxt)
+[Apache OpenOffice 4.x variant (emph-A-3.0.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-A-3.0.0.oxt)
 
-[OpenOffice.org 3.x variant (emph-2.0.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-2.0.0.oxt)
+[OpenOffice.org 3.x variant (emph-3.0.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-3.0.0.oxt)
 
-[LibreOffice variant (emph-L-2.0.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-L-2.0.0.oxt)
+[LibreOffice variant (emph-L-3.0.0.oxt)](https://raw.githubusercontent.com/peter88213/emph/main/emph-L-3.0.0.oxt)
 
 * Installation right at download, by double-clicking on the downloaded file, or via the Libre/OpenOffice Extension Manager.
 

@@ -17,7 +17,7 @@ You can dock it to a suitable place on the user interface.
 
 ## Use the toolbar
 
-There are three buttons:  __E__  for emphasize and  __S__  for strong emphasize and  __D__  for default style.
+There are three buttons:  __E__  for Emphasis and  __S__  for Strong Emphasis and  __A__  for No Character Style.
 
 
 ### Assign "Emphasis" character style
@@ -38,8 +38,8 @@ There are three buttons:  __E__  for emphasize and  __S__  for strong emphasize 
 
 ### Undo the assignment
 
-1. Mark the text passage you want to de-emphasize.
-2. Click on the  __D__  button.
+1. Mark the text passage you want to un-emphasize.
+2. Click on the  __A__  button.
 
 ![](Screenshots/Default.png)
 
@@ -50,7 +50,7 @@ Alternatively, you can assign the Default Character Style, which also works with
 1. Make sure that nothing is marked. 
 2. Click on the  __E__  button.
 3. Type the text you want to emphasize.
-4. When finished, press **Ctrl-M**, or click on the  __D__  button.
+4. When finished, press **Ctrl-M**, or click on the  __A__  button.
 
 
 ### Enter strongly emphasized text
@@ -58,7 +58,7 @@ Alternatively, you can assign the Default Character Style, which also works with
 1. Make sure that nothing is marked. 
 2. Click on the  __S__  button.
 3. Type the text you want to emphasize.
-4. When finished, press **Ctrl-M**, or click on the  __D__  button.
+4. When finished, press **Ctrl-M**, or click on the  __A__  button.
 
 
 ## Use the menu
